@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Apply background image to body */
+body {
+    background-image: url('https://img.freepik.com/free-photo/pastel-blue-vignette-concrete-textured-background_53876-102637.jpg'); /* Replace with the actual image URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the heading */
+h1 {
+    color: #1b2c59;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Form container styling with linear gradient */
+form {
+    background: linear-gradient(135deg, #007bff 0%, #6610f2 100%); /* Blue to purple gradient */
+    color: #fff; /* White text color for readability */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background-clip: padding-box; /* Ensures the background stays within the border-radius */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #28a745; /* Custom button color, feel free to change */
+    border-color: #28a745;
+    font-size: 0.9rem; /* Make button text smaller */
+    padding: 8px 16px;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Responsive Form Adjustments */
+@media (max-width: 768px) {
+    form {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Labels and Inputs */
+label {
+    color: #f8f9fa;
+}
+
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Center the form on the page */
+.container {
+    max-width: 600px;
+    margin: auto;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the HR-TOR Portal</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="hr.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Welcome to the HR-TOR Portal</h1>
+        <form class="mt-4" enctype="multipart/form-data">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="jobRole">Job Role</label>
+                    <select class="form-control" id="jobRole">
+                        <option value="">Select Job Role</option>
+                        <option value="consultant">Consultant</option>
+                        <option value="external-consultant">External Consultant</option>
+			<option value="short-term-consultant">Short Term Consultant</option>
+			<option value="Project-human-resource-position">Project Human Resource Position</option>
+                        <option value="intern">Intern</option>
+                    </select>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for="specificPosition">Specific Position</label>
+                    <select class="form-control" id="specificPosition">
+                        <option value="">Select Specific Position</option>
+                        <option value="developer">Developer</option>
+                        <option value="project-manager">Project Manager</option>
+                        <option value="analyst">Analyst</option>
+                        <option value="tester">Tester</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="natureOfWork">Nature of Work</label>
+                    <select class="form-control" id="natureOfWork">
+                        <option value="">Select Nature of Work</option>
+                        <option value="full-time">Full-time</option>
+                        <option value="part-time">Part-time</option>
+                        
+                    </select>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="typeOfWork">Type of Work</label>
+                    <select class="form-control" id="typeOfWork">
+                        <option value="">Select Type of Work</option>
+                        <option value="remote">Remote</option>
+                        <option value="on-site">On-site</option>
+			<option value="Hybrid">Hybrid</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="dateOfPost">Date of Post</label>
+                <input type="date" class="form-control" id="dateOfPost">
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="annexures">Upload Annexures (PDF, JPG)</label>
+                    <input type="file" class="form-control-file" id="annexures" accept=".pdf, .jpg">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="corrigendum">Upload Corrigendum (PDF, JPG)</label>
+                    <input type="file" class="form-control-file" id="corrigendum" accept=".pdf, .jpg">
+                </div>
+            </div>
+
+            <!-- Centered Button -->
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
